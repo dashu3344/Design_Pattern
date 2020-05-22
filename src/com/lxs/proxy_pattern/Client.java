@@ -7,6 +7,7 @@ public class Client {
 
         ProxySubject proxySubject = new ProxySubject(realSubject);
 
+        
         proxySubject.visit();
     }
 }
